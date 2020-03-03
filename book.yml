@@ -1,5 +1,5 @@
 ---
-hosts: 3.19.234.152
+hosts: Servers
  tasks:
   - name: install apache
     apt: name=apache2 state=latest
